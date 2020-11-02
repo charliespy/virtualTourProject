@@ -8,5 +8,6 @@ $( document ).ready(function() {
 
 function switchWindowWithIndex(gotoIndex) {
     // index=gotoIndex
+    index = gotoIndex;
     window.location.href = "new_view.html";
 }  
