@@ -20,8 +20,8 @@ var places_list =
   },
   {
     'title' : 'Alf Museum',
-    'description1' : 'This is the Alf Museum',
-    'description2' : 'Your next stop is the Science Building',
+    'description1' : 'Welcome to the Raymond Alf Museum! Webb is the only high school in the world with an accredited paleontology museum on its campus! The Alf Museum is home to 175,000 specimens, 95% of which were found by Webb community members. Webb students have the opportunity to work at the museum and can take classes in paleontology and museum studies.',
+    'description2' : 'All Webb students are invited to participate in paleontology digs, or "peccary trips." 9th grade students travel to Barstow, CA to look for fossils as part of Webb’s freshman orientation program. Summer peccary trips have also taken students to Montana, Utah, Madagascar, Mongolia and Peru!',
     'lat' : 34.123754,
     'lng' : -117.739179,
     'heading' : 34,
