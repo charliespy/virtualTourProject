@@ -2,8 +2,8 @@ var places_list =
 [
   {
     'title' : 'Front Gate',
-    'description1' : 'This is the Front Gate',
-    'description2' : 'Your next stop is the Admission Office',
+    'description1' : 'This is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front Gate',
+    'description2' : 'Your next stop is the Admission OfficeThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front Gate',
     'lat' :  34.0587707, 
     'lng' : -117.8190623,
     'heading' : 34,

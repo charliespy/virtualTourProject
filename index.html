@@ -1,149 +1,433 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.6">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Mobile Web-app fullscreen -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Meta tags -->
+
+    <meta name="description" content="Extended Bootstrap 4 Template">
+    <meta name="author" content="Goran Hrustic">
+    <link rel="icon" href="assets/svg/favicon.ico">
+
+    <!-- Title -->
+
     <title>Virtual Tour Webb | Home</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/jumbotron/">
+    <!-- Vendor stylesheets -->
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" media="all" href="css/vendor/animate.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/font-awesome.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/linear-icons.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/owl.carousel.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/jquery.lavalamp.css" />
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
-    <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
-    <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#563d7c">
+    <!-- Template stylesheets -->
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+    <link rel="stylesheet" media="all" href="css/style.css" />
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+    <!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
-      h1{
-        text-align:center;
-      }
+</head>
 
-      #topPart{
-        height:70%;
-        weight:100%;
-        padding:10px;
-        margin-top:30px;
-      }
+<body>
+    <div class="loader">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
 
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
-  </head>
-  <body>
-    <!--navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="webb">
-      <a class="navbar-brand" href="https://www.webb.org">The Webb Schools</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Main navigation -->
+    
+    <nav class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+        <div class="container">
+    
+            <!-- Logo -->
+    
+            <a class="navbar-brand mr-1" href="index.html">
+                <img src="pictures/logo.png" alt="" style="width:50px; height:50px;">
+            </a>
+    
+            <!-- Collapse -->
+    
+            <div class="collapse navbar-collapse navbar-collapse-sidebar" id="mainNavbar">
+    
+                <!-- Mobile search -->
+    
+                <div class="d-block d-lg-none">
+                    <div class="p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img src="assets/svg/reveal-symbol.svg" alt="">
+                            <button class="btn p-0" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon icon-cross font-size-lg"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-light">
+                        <div class="form-group form-group-icon">
+                            <input type="text" class="form-control form-control-simple" placeholder="Search site">
+                            <button class="btn btn-clean"><i class="icon icon-magnifier"></i></button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Navbar links -->
+    
+                <ul class="navbar-nav ml-auto">
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+    
+                    <!-- Places List -->
+                    <li>
+                      <div class="dropdown">
 
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>-->
-          <li>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                List of Places
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu_bar_index" onclick="switchWindowWithIndex(placesList)">
-                <!-- <a class="dropdown-item" href="frontGate.html">Front Gate</a>
-                <a class="dropdown-item" href="admissionOffice.html">Admission Office</a>
-                <a class="dropdown-item" href="alfMuseum.html">Alf Museum</a>
-                <a class="dropdown-item" href="science.html">Science Building</a>
-                <a class="dropdown-item" href="library.html">Fawcett Library</a>
-                <a class="dropdown-item" href="osh.html">Old School House</a>
-                <a class="dropdown-item" href="liuCheung.html">Liu Cheung Theater</a>
-                <a class="dropdown-item" href="hooper.html">Student Center</a>
-                <a class="dropdown-item" href="diningHall.html">Dining Hall</a>
-                <a class="dropdown-item" href="copeland.html">Copeland Donahue Theater</a>
-                <a class="dropdown-item" href="chapel.html">Chapel</a>
-                <a class="dropdown-item" href="pool.html">Pool</a>
-                <a class="dropdown-item" href="wscDorm.html">Dorm (WSC)</a>
-                <a class="dropdown-item" href="vwsDorm.html">Dorm (VWS)</a> -->
-              </div>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                            Places list
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu_bar_index" onclick="switchWindowWithIndex(placesList)">
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <!-- Single dropdown -->
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="support" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Support
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="support">
+                            <a class="dropdown-item" href="https://webb.org">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1 text-primary">
+                                            <i class="icon icon-book"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>Webbsite</p>
+                                            <span class="label">Webb's official website</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://www.webb.org/admission/apply/" target="_blank">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1 text-dark">
+                                            <i class="icon icon-thumbs-up"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>Apply now</p>
+                                            <span class="label">Go to admission portal</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="" target="_blank">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1 text-danger">
+                                            <i class="icon icon-heart-pulse"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>Helpdesk</p>
+                                            <span class="label">Give us some feedback </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </li>
-        </ul>
-        
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
+    
+            <!-- Navbar toggler -->
+    
+            <div class="d-flex align-items-center">
+                <a class="btn btn-sm btn-primary btn-rounded ml-lg-4 px-3" href="new_view.html">
+                    Tour now
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="T  oggle navigation">
+                    <span class="icon icon-menu"></span>
+                </button>
+            </div>
+    
+        </div>
     </nav>
-    <!--navigation bar-->
 
-<main role="main">
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron" style="background:url(backgroundPic.jpeg) no-repeat; background-size:100%;">
-    <div class="container">
-      <h1 class="display-3" style="color:white;">Welcome to Webb!</h1>
-      <p style="color:white; font-size: 150%;">Hi! This is the online virtual tour of The Webb Schools CA. Developed by Charlie Sun '22, this tour is dedicated to provide to you the most realistic side of Webb.<br></p>
-      <p><a class="btn btn-primary btn-lg" class="myButton" href="new_view.html" role="button">Start Virtual Tour &raquo;</a><br></p>
-    </div>
-  </div>
 
-  <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4">
-        <h2>The Webb Schools</h2>
-        <p>Founded in 1912 by Thompson Webb, The Webb Schools from Claremont, California strives to provide students with the best academics, team sports, outdoor adventure, and participation in the arts, as well as training students with our unique "Unbounded Thinking."</p>
-        <p><a class="btn btn-secondary" href="https://www.webb.org/about/the-webb-experience" role="button">View details &raquo;</a></p>
+    <!-- Hero -->
+    
+    <section style="background:url('pictures/test3.jpg'); background-position: center; height: 100vh"> 
+        <div class="container-fluid">
+    
+            <!-- Hero text -->
+    
+            <div class="row justify-content-center align-items-center align-items-lg-start pt-lg-8 vh-100">
+                <div class="col-md-8 text-center" style="background-color: rgb(255,255,255); background-color: rgba(255,255,255, 0.4);">
+
+                    <div class="wow fadeInDown" data-wow-delay="0.4s">
+                        <h1 class="display-4 mb-3 mb-lg-5 rellax" data-rellax-speed="-2">
+                            <b> Welcome to Webb! </b>
+                        </h1>
+                    </div>
+
+                    <div class="d-none d-md-block">
+                        <div class="wow fadeInDown" data-wow-delay="0.5s">
+                            <p class="lead mb-5 rellax" data-rellax-speed="-2.2">
+                                <b> Explore the most realistic side of Webb on a virtual tour<br class="d-none d-lg-inline">Enjoy your ride! </b>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rellax pt-3" data-rellax-speed="-2.5">
+                        <span class="wow fadeInDown" data-wow-delay=".6s">
+                            <a href="new_view.html" class="btn btn-rounded btn-light px-4"> Start Virtual Tour </a> &nbsp;
+                        </span>
+                        <!-- <span class="wow fadeInDown" data-wow-delay=".7s">
+                            <a href="../documentation/index.html" class="btn btn-rounded btn-outline-light px-4">Documentation</a>
+                        </span> -->
+                    </div>
+                </div>
+            </div>
       </div>
-      <div class="col-md-4">
-        <h2>Admissions</h2>
-        <p>Webb celebrate diversity of thought and encourage our students to be themselves. Webb students want to be in an environment where they’re challenged to push boundaries; they know they have freedom to take intellectual risks to learn, grow and develop into moral leaders.</p>
-        <p><a class="btn btn-secondary" href="https://www.webb.org/admission/webb-admission" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Alf Museum</h2>
-        <p>Webb is the only high school in the United States to have a Paleontology Museum on its campus. The Alf Museum is also a perfect example of unbounded thinking in action. After all, 95% of the museum’s more than 175,000 specimens were discovered by Webb students, teachers and alumni.</p>
-        <p><a class="btn btn-secondary" href="https://www.webb.org/alf-museum" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
+    </section>
+    
+    <!-- Intro -->
+    
+    <section class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center rellax rellax-move" data-rellax-speed="0.5">
+                    <div class="wow fadeInUp" data-wow-delay="0.3s">
+                        <h2 class="display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <p>
+                            Nullam ultrices eu lectus sit amet facilisis. Morbi nec risus sed metus efficitur dictum tempor ut odio. Donec eu nisi viverra, vestibulum sem et, porttitor dolor. Curabitur placerat convallis nisl, vitae eleifend ante hendrerit nec. Quisque auctor diam sed lectus interdum placerat. Vivamus vel pulvinar nisl.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="divider">
+    
+    <!-- Study -->
+    
+    <section class="bg-white">
+        <div class="container">
+    
+            <div class="row align-items-center">
+                <div class="col-lg-5 pr-lg-5">
+                    <div class="rellax rellax-move" data-rellax-speed="0.4">
+                        <div class="wow fadeInUp" data-wow-delay="0.2s">
+                            <h2 class="display-4">Mauris hendrerit ex vehicula.</h2>
+                            <p>
+                                Donec mattis sit amet nisi in cursus. Donec auctor turpis eu egestas luctus. Nam non leo posuere, rutrum enim et, venenatis sapien. Aenean fermentum iaculis tellus blandit porttitor. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="rellax rellax-move" data-rellax-speed="-0.3">
+                        <div class="wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="pt-5 pt-lg-0">
+                                <img src="pictures/homepage1.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Atheletics -->
+    
+    <section class="bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 order-lg-2 pl-lg-5">
+                    <div class="rellax rellax-move" data-rellax-speed="0.3">
+                        <div class="wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="display-4">Maecenas commodo, orci ut pretium fringilla</h2>
+                            <p>
+                                Etiam mi neque, porta nec ligula in, maximus scelerisque risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus tincidunt blandit rutrum. In nec leo volutpat, varius orci nec, aliquam lacus. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="rellax rellax-move" data-rellax-speed="-0.4">
+                        <div class="wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="pt-5 pt-lg-0">
+                                <img src="pictures/homepage2.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="divider">
+    
+    <!-- Statistics -->
+    
+    <section class="bg-white p-0">
+        <div class="container">
+            <div class="row text-center line-divider">
+                <div class="col-lg-4 py-4 py-lg-8">
+                    <div class="wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="display-2">6:1</div>
+                        <p class="lead">Student/faculty ratio</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-4 py-lg-8">
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="display-2">408</div>
+                        <p class="lead">Total students</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-4 py-lg-8">
+                    <div class="wow fadeInRight" data-wow-delay="0.5s">
+                        <div class="display-2">21<small>%</small></div>
+                        <p class="lead">International students</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Apply now! -->
+    
+    <section class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <h2 class="display-4">Aliquam erat volutpat!</h2>
+                        <p class="lead">
+                            Morbi placerat quam eu lacus lacinia porttitor. Sed id nulla sem. Curabitur eu ligula vel lacus venenatis ornare. Duis ut odio mi.
+                        </p>
+                    </div>
+                    <div class="wow fadeInUp pt-5" data-wow-delay="0.8s">
+                        <a href="http://helpdesk.elathemes.com/" class="btn btn-rounded btn-outline-dark px-4">Apply now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SVG Divider -->
+    
+    <section class="divider bg-white">
+        <svg class="svg svg-light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="100" viewBox="0 0 1920 100" preserveAspectRatio="none meet">
+            <path d="M0,11S168.915,69.242,406.27,70.7,685.853,57.593,850.4,37.207,1259.752,73.448,1517.323,70.7,1920,19.667,1920,19.667V101H0Z" transform="translate(0 -1)" />
+            <path d="M1920,102.048s-89.6,137.879-398.308,19.053c-162.379-62.5-391.708,20.855-598.484,20.855-206.775,22.449-295.6-77.886-503.833-39.909C286.864,132.511,0,110.668,0,110.668v62.337H1920Z" transform="translate(0 -73.005)" fill-opacity=".2" />
+            <path d="M0,102.147S407.045,189.7,555.574,121.265C717.953,58.549,760.893,69.884,840.982,85.957c188.351,79.39,348.351-56.61,532.351,70.057C1489,91.538,1920,110.8,1920,110.8v62.551H0Z" transform="translate(0 -73.347)" fill-opacity=".4" />
+        </svg>
+    </section>
+    
+    <!-- Section Hero -->
+    
+    <section class="pb-0 position-relative">
+    
+        <!-- Developed by Charlie -->
+    
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center py-5">
+                <div class="col-md-8">
+                    <div class="wow fadeInUp" data-wow-delay=".1s">
+                        <h2 class="display-4"><b>Student</b> made</h2>
+                    </div>
+                    <div class="wow fadeInUp" data-wow-delay=".2s">
+                        <p class="lead mb-3 mb-lg-5">The tour is developed entirely by <b>Charlie Sun'22</b> in the 2020-2021 school year, inspired by Webb's "unbounded thinking" philosophy and supported by the admission office. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+            <!-- Text -->
+    
+            <div class="row justify-content-center align-items-center text-center py-5">
+                <div class="col-md-8 mt-5">
+                    <div class="wow fadeInUp" data-wow-delay=".1s">
+                        <h2 class="display-4">Nulla non auctor arcu!</h2>
+                        <p class="lead mb-5">
+                            Donec vulputate nulla arcu, in egestas dui interdum placerat. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
 
-  </div> <!-- /container -->
-</main>
+    <!-- Footer -->
+    
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row justify-content-between align-items-end text-center text-md-left">
+    
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <a href="../documentation/index.html" class="link link-underline link-light mr-3"><i class="icon icon-book"></i> Documentation</a>
+                    <a href="http://helpdesk.elathemes.com/" class="link link-underline link-light mr-3"><i class="icon icon-heart-pulse"></i> Help</a>
+                </div>
+    
+                <div class="col-md-6 text-md-right">
+                    <a href="https://themeforest.net/item/reveal-responsive-multipurpose-ecommerce-bootstrap-html-template/29644121" class="btn btn-outline-light btn-rounded btn-sm px-3">
+                        <i class="icon icon-cart"></i> Get the licence
+                    </a>
+                </div>
+    
+            </div>
+    
+            <div class="pt-5 text-muted text-center">
+                <div class="mb-3"><img src="assets/svg/reveal-logo.svg" alt=""></div>
+                <div><small class="text-muted pre-label">A bold visual experience</small></div>
+                <small>All rights reserved 2020 © Reveal</small>
+            </div>
+        </div>
+    </footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Vendor Scripts -->
 
-<script src="new_view_data.js"></script>
-<script src="index_controller.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.bundle.js"></script>
+    <script src="js/vendor/in-view.min.js"></script>
+    <script src="js/vendor/jquery.lavalamp.js"></script>
+    <script src="js/vendor/owl.carousel.js"></script>
+    <script src="js/vendor/rellax.js"></script>
+    <script src="js/vendor/wow.js"></script>
+    <script src="js/vendor/tabzy.js"></script>
+    <script src="js/vendor/isotope.pkgd.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Template Scripts -->
 
-</body>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- Page essentials -->
+    <script src="new_view_data.js"></script>
+    <script src="index_controller.js"></script>
+
+    </body>
+
 </html>
-

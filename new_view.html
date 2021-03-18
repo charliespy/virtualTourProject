@@ -24,69 +24,173 @@
 
     <!-- Custom styles for this template -->
     <link href="navbar-top-fixed.css" rel="stylesheet">
+
+    <!-- Vendor stylesheets -->
+
+    <link rel="stylesheet" media="all" href="css/vendor/animate.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/font-awesome.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/linear-icons.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/owl.carousel.css" />
+    <link rel="stylesheet" media="all" href="css/vendor/jquery.lavalamp.css" />
+
+    <!-- Template stylesheets -->
+
+    <link rel="stylesheet" media="all" href="css/style.css" />
   </head>
+
+
+
   <body>
     <!--navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="webb">
-      <a class="navbar-brand" href="https://www.webb.org">The Webb Schools</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div class="loader">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
 
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>-->
-          <li>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                List of Places
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu_bar">
-                <!-- <a class="dropdown-item" href="frontGate.html">Front Gate</a>
-                <a class="dropdown-item" href="admissionOffice.html">Admission Office</a>
-                <a class="dropdown-item" href="alfMuseum.html">Alf Museum</a>
-                <a class="dropdown-item" href="science.html">Science Building</a>
-                <a class="dropdown-item" href="library.html">Fawcett Library</a>
-                <a class="dropdown-item" href="osh.html">Old School House</a>
-                <a class="dropdown-item" href="liuCheung.html">Liu Cheung Theater</a>
-                <a class="dropdown-item" href="hooper.html">Student Center</a>
-                <a class="dropdown-item" href="diningHall.html">Dining Hall</a>
-                <a class="dropdown-item" href="copeland.html">Copeland Donahue Theater</a>
-                <a class="dropdown-item" href="chapel.html">Chapel</a>
-                <a class="dropdown-item" href="pool.html">Pool</a>
-                <a class="dropdown-item" href="wscDorm.html">Dorm (WSC)</a>
-                <a class="dropdown-item" href="vwsDorm.html">Dorm (VWS)</a> -->
-              </div>
+    <!-- Main navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" style="margin-top:0; margin-buttom:0;">
+        <div class="container">
+ 
+            <!-- Logo -->
+    
+            <a class="navbar-brand mr-1" href="index.html">
+                <img src="pictures/logo.png" alt="" style="width:30px; height:30px;">
+            </a>
+    
+            <!-- Collapse -->
+    
+            <div class="collapse navbar-collapse navbar-collapse-sidebar" id="mainNavbar">
+    
+                <!-- Mobile search -->
+    
+                <div class="d-block d-lg-none">
+                    <div class="p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img src="assets/svg/reveal-symbol.svg" alt="">
+                            <button class="btn p-0" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon icon-cross font-size-lg"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-light">
+                        <div class="form-group form-group-icon">
+                            <input type="text" class="form-control form-control-simple" placeholder="Search site">
+                            <button class="btn btn-clean"><i class="icon icon-magnifier"></i></button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Navbar links -->
+    
+                <ul class="navbar-nav ml-auto">
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+    
+                    <!-- Places List -->
+                    <li>
+                      <div class="dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                            Places list
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu_bar_index" onclick="switchWindowWithIndex(placesList)">
+                        </div>
+
+                      </div>
+                    </li>
+
+                    <!-- Single dropdown -->
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="support" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Support
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="support">
+                            <a class="dropdown-item" href="https://webb.org">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1 text-primary">
+                                            <i class="icon icon-book"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>Webbsite</p>
+                                            <span class="label">Webb's official website</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="http://helpdesk.elathemes.com/" target="_blank">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1 text-dark">
+                                            <i class="icon icon-thumbs-up"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>Apply now</p>
+                                            <span class="label">Go to admission portal</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="https://themeforest.net/item/reveal-responsive-multipurpose-ecommerce-bootstrap-html-template/29644121" target="_blank">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <span class="px-1 text-danger">
+                                            <i class="icon icon-heart-pulse"></i>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <div class="px-2">
+                                            <p>Helpdesk</p>
+                                            <span class="label">Give us some feedback </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </li>
-        </ul>
-        
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
+    
+            <!-- Navbar toggler -->
+    
+            <div class="d-flex align-items-center">
+                <a class="btn btn-sm btn-primary btn-rounded ml-lg-4 px-3" href="new_view.html">
+                    Tour now
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="T  oggle navigation">
+                    <span class="icon icon-menu"></span>
+                </button>
+            </div>
+    
+        </div>
     </nav>
-    <!--navigation bar-->
 
     <div id="pano"></div>
-    <div class="container">
-      <h2 id="title"></h2>
-      <div class="row">
-        <div class="col-sm">
-          <p id="description1"></p>
+      <div class="container">
+        <h1 id="title"></h1>
+        <div class="row">
+          <div class="col-sm">
+            <p id="description1"></p>
+          </div>
+          <div class="col-sm">
+            <p id="description2"></p>
+          </div>
         </div>
-        <div class="col-sm">
-          <p id="description2"></p>
-          <p><br><a class="btn btn-primary btn-lg" class="myButton" role="button" onclick="goToNextPlace()">Next</a><br></p>
-        </div>        
       </div>
-    </div> 
+      <br>
+      <div style="text-align: center;">
+          <button id="butt" onclick="goToNextPlace()"> Next place </button>
+      </div>
+    
 
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXUNSnZVRHG9S0aS1SUr_TNz5iQHwgKJo&callback=initialize">
@@ -94,11 +198,25 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
-    <!-- <script src="data.js"></script>
-    <script src="data_controller.js"></script> -->
-
     <script src="new_view_data.js"></script>
     <script src="new_view_controller.js"></script>
+
+    <!-- Vendor Scripts -->
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.bundle.js"></script>
+    <script src="js/vendor/in-view.min.js"></script>
+    <script src="js/vendor/jquery.lavalamp.js"></script>
+    <script src="js/vendor/owl.carousel.js"></script>
+    <script src="js/vendor/rellax.js"></script>
+    <script src="js/vendor/wow.js"></script>
+    <script src="js/vendor/tabzy.js"></script>
+    <script src="js/vendor/isotope.pkgd.js"></script>
+
+    <!-- Template Scripts -->
+
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
