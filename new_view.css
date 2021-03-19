@@ -51,13 +51,13 @@
       }
       #butt{
         font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-        background-color: #4CAF50; /* Green */
+        background-color:#08F;
         border: none;
         color: white;
-        padding: 15px 32px;
+        padding: 10px 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 20px;
         border-radius: 8px;
       }
