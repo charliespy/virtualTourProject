@@ -30,9 +30,11 @@
     <!-- Template stylesheets -->
 
     <link rel="stylesheet" media="all" href="css/style.css" />
+
+     <style>
+      .dropdown div { font-size: 10px; }
+    </style>
   </head>
-
-
 
   <body>
     <!--navigation bar-->
@@ -86,14 +88,11 @@
                     <!-- Places List -->
                     <li>
                       <div class="dropdown">
-
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
                             Places list
                         </a>
-
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu_bar_index" onclick="switchWindowWithIndex(placesList)">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu_bar">
                         </div>
-
                       </div>
                     </li>
 
@@ -187,7 +186,7 @@
     
 
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXUNSnZVRHG9S0aS1SUr_TNz5iQHwgKJo&callback=initialize">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsYNcoCH1QtcagcbPzfwOBetYuv5OA-cs&callback=initialize">
     </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

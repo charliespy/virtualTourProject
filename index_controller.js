@@ -2,7 +2,9 @@
 
 $( document ).ready(function() {
     for(var i = 0; i < places_list.length; i++) {
-      $("#menu_bar_index").append('<a class="dropdown-item" onclick="switchWindowWithIndex(' + i + ')">' + places_list[i].title + '</a>');
+      if (places_list[i].marker == 'True'){
+        $("#menu_bar_index").append('<a class="dropdown-item" onclick="switchWindowWithIndex(' + i + ')">' + places_list[i].title + '</a>');
+      }
     }
 });
 

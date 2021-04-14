@@ -3,7 +3,9 @@ var index = 0;
 
 $( document ).ready(function() {
     for(var i = 0; i < places_list.length; i++) {
-      $("#menu_bar").append('<a class="dropdown-item" onclick="goToNextPlaceWithIndex(' + i + ')">' + places_list[i].title + '</a>');
+      if (places_list[i].marker == 'True'){
+        $("#menu_bar").append('<a class="dropdown-item" onclick="goToNextPlaceWithIndex(' + i + ')">' + places_list[i].title + '</a>');
+      }
     }
 
     $("#title").text(places_list[index].title);
