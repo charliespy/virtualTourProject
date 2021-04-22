@@ -2,8 +2,8 @@ var places_list =
   [
     {
       'title': 'Front Gate',
-      'description1': 'This is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front Gate',
-      'description2': 'Your next stop is the Admission OfficeThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front GateThis is the Front Gate',
+      'description1': 'Welcome to the Webb Schools in Claremont, California! This will be the place where your magical journey begins. Let’s jump right into it, shall we?',
+      'description2': 'Scroll down the page and click the “Next Place” button to begin the tour!',
       'lat': 34.121775,
       'lng': -117.738745,
       'heading': 50,
@@ -12,8 +12,8 @@ var places_list =
     },
     {
       'title': 'Inside gate',
-      'description1' : 'This is the Admission Office',
-      'description2': 'Your next stop is the Alf Museum',
+      'description1' : 'This is the entrance to the main campus. To your front, you can already see some of the buildings such as the Hooper Student Center and the Science Building. To your left, you can see a large chunk of lawn that’s designed for, uhh…, no particular usages, maybe just for decoration, which we’ve got a lot on campus. To your right/back, we have a little parking lot; it’s where many day students choose to meet with their parents after school to go home, and also where boarding students get their food deliveries.',
+      'description2': 'Just a brief snapshot of Webb here. We are 2 schools on 1 campus: The Webb School of California (WSC) for the boys, and the Vivian Webb School (VWS) for the girls. The WSC is founded in 1922 by Thompson and Vivian Webb, and the VWS was a later addition in 1981. In freshman and sophomore years (9th and 10th grade), most courses are single-gender, and junior and senior year (11th and 12th grade) classes are co-ed. We now have approximately 400 students, 60% are boarding and 40% are day, and our campus is spread across more than 150 acres of land.',
       'lat': 34.1229888,
       'lng': -117.7390033,
       'heading': 10,
@@ -21,8 +21,8 @@ var places_list =
     },
     {
       'title': 'Admission Office',
-      'description1': 'This is the Admission Office',
-      'description2': 'Your next stop is the Alf Museum',
+      'description1': 'Alrighty, our tour today starts at the Webb House, the former home of our founders Thompson and Vivian Webb, who lived and raised their four boys on Webb’s campus. Webb House is now the home of the Admission Office, and the first stop for prospective families visiting campus.',
+      'description2': 'The virtual tour will follow the on-campus tour route, but thanks to the magic of the internet, we’ll be able to visit places that you wouldn’t normally see during an on-campus tour. Your first stop will be across the street from the Admissions Office – the Alf Museum.',
       'lat': 34.1233833,
       'lng': -117.7383917,
       'heading': 190,
