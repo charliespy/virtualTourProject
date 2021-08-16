@@ -270,7 +270,7 @@ var places_list =
       'description2': 'The chapel is really a gathering place for the entire Webb community where students will learn life lessons through giving and listening to talks. It’s an integral part of Webb’s history.',
       'lat': 34.1250167,
       'lng': -117.740155,
-      'heading': 5,
+      'heading': 165,
       'pitch': 0,
     },
     {
