@@ -1,179 +1,214 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.6">
-    <title id="heading"></title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.6">
+  <title id="heading"></title>
 
-        <!-- Favicons -->
-    <link rel="icon" href="pictures/favicon.ico">
-    <meta name="theme-color" content="#563d7c">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="new_view.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link rel="icon" href="pictures/favicon.ico">
+  <meta name="theme-color" content="#563d7c">
 
-    <!-- Custom styles for this template -->
-    <link href="navbar-top-fixed.css" rel="stylesheet">
+  <link href="new_view.css" rel="stylesheet">
 
-    <!-- Vendor stylesheets -->
+  <!-- Custom styles for this template -->
+  <link href="navbar-top-fixed.css" rel="stylesheet">
 
-    <link rel="stylesheet" media="all" href="css/vendor/animate.css" />
-    <link rel="stylesheet" media="all" href="css/vendor/font-awesome.css" />
-    <link rel="stylesheet" media="all" href="css/vendor/linear-icons.css" />
-    <link rel="stylesheet" media="all" href="css/vendor/owl.carousel.css" />
-    <link rel="stylesheet" media="all" href="css/vendor/jquery.lavalamp.css" />
+  <!-- Vendor stylesheets -->
 
-    <!-- Template stylesheets -->
+  <link rel="stylesheet" media="all" href="css/vendor/animate.css" />
+  <link rel="stylesheet" media="all" href="css/vendor/font-awesome.css" />
+  <link rel="stylesheet" media="all" href="css/vendor/linear-icons.css" />
+  <link rel="stylesheet" media="all" href="css/vendor/owl.carousel.css" />
+  <link rel="stylesheet" media="all" href="css/vendor/jquery.lavalamp.css" />
 
-    <link rel="stylesheet" media="all" href="css/style.css" />
+  <!-- Template stylesheets -->
 
-     <style>
-      #menu_bar { font-size: 10px; }
-    </style>
-  </head>
+  <link rel="stylesheet" media="all" href="css/style.css" />
 
-  <body>
-    <!--navigation bar-->
-        <div class="loader">
-        <div class="spinner-border" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+  <style>
+    #menu_bar {
+      font-size: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--navigation bar-->
+  <div class="loader">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <style>
+    #wrapper {
+      position: relative;
+    }
+    
+    #over_map_heading {
+      position: absolute;
+      top: 0px;
+      z-index: 99;
+    }
+
+    #over_map {
+      position: absolute;
+      top: 100px;
+      z-index: 99;
+      width: 15%;
+    }
+
+    #over_map_desc {
+      position: absolute;
+      top: 550px;
+      right: 30%;
+      z-index: 99;
+      width: 40%;
+      height: 100px;
+    }
+
+    #over_map_support {
+      position: absolute;
+      top: 20px;
+      right: 100px;
+      z-index: 99;
+    }
+
+    #over_map_button {
+      position: absolute;
+      top: 660px;
+      width:50%;
+      right: 25%;
+      z-index: 99;
+    }
+
+    #over_map_picture {
+      position: absolute;
+      top: 400px;
+      right: 18%;
+      z-index: 99;
+    }
+
+  </style>
+
+  <div id="pano"> </div>
+  <div id="wrapper">
+
+    <div id="over_map_heading">
+      <a href="index.html">
+      <img src= "logo.png" style="width:15%;">
+      </a>
     </div>
 
-    <!-- Main navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" style="margin-top:0; margin-buttom:0;">
-        <div class="container">
- 
-            <!-- Logo -->
-    
-            <a class="navbar-brand mr-1" href="index.html">
-                <img src="pictures/logo.png" alt="" style="width:30px; height:30px;">
+    <div class="container bg-dark opacity-1 overflow-auto" id="over_map_desc">
+      <p id="description1" class="text-white"></p>
+    </div>
+
+    <div style="text-align: center;" id="over_map_button">
+     
+        <button id="butt" onclick="goToLastPlace()" style="background-color:#08F;border-color:#08F;"> Last place </button>
+        <button id="butt" onclick="goToNextPlace()" style="background-color:#08F;border-color:#08F;"> Next place </button>
+     
+    </div>
+
+    <!-- <div id = "over_map_support" class="button bg-dark">
+        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="support" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Support
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="support">
+                              
+                              
+                              <a class="dropdown-item" href="https://webb.org" target="_blank">
+                                  <div class="d-flex align-items-center">
+                                      <div>
+                                          <span class="px-1 text-primary">
+                                              <i class="icon icon-book"></i>
+                                          </span>
+                                      </div>
+                                      <div>
+                                          <div class="px-2">
+                                              <p>Webbsite</p>
+                                              <span class="label">Webb's official website</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+
+                              
+                              <a class="dropdown-item" href="https://www.webb.org/admission/apply/" target="_blank">
+                                  <div class="d-flex align-items-center">
+                                      <div>
+                                          <span class="px-1 text-dark">
+                                              <i class="icon icon-thumbs-up"></i>
+                                          </span>
+                                      </div>
+                                      <div>
+                                          <div class="px-2">
+                                              <p>Apply now</p>
+                                              <span class="label">Go to admission portal</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+
+
+                              <a class="dropdown-item" href="team.html" target="_blank">
+                                  <div class="d-flex align-items-center">
+                                      <div>
+                                          <span class="px-1 text-danger">
+                                              <i class="icon icon-heart-pulse"></i>
+                                          </span>
+                                      </div>
+                                      <div>
+                                          <div class="px-2">
+                                              <p>Helpdesk</p>
+                                              <span class="label">Give us some feedback </span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+                          </div>
+                      </li>
+          
+      </div> -->
+
+
+    <div id = "over_map_picture" >
+      <a href="test_pic.jpg" class="opacity-0 unclickable" id="hiddenA">
+      <img src= "image-icon-png-22.png" style="width: 10%; height: auto;" >
+      </a>
+    </div>  
+
+
+    <div id="over_map" class="text-black bg-white opacity-1">
+      <nav class="nav flex-column">
+
+        <li>
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Places list
             </a>
-    
-            <!-- Collapse -->
-    
-            <div class="collapse navbar-collapse navbar-collapse-sidebar" id="mainNavbar">
-    
-                <!-- Mobile search -->
-    
-                <div class="d-block d-lg-none">
-                    <div class="p-3">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <img src="assets/svg/reveal-symbol.svg" alt="">
-                            <button class="btn p-0" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="icon icon-cross font-size-lg"></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="bg-light">
-                        <div class="form-group form-group-icon">
-                            <input type="text" class="form-control form-control-simple" placeholder="Search site">
-                            <button class="btn btn-clean"><i class="icon icon-magnifier"></i></button>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Navbar links -->
-    
-                <ul class="navbar-nav ml-auto">
-    
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-    
-                    <!-- Places List -->
-                    <li>
-                      <div class="dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-                            Places list
-                        </a>
 
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu_bar">
-                        </div>
-                      </div>
-                    </li>
-
-                    <!-- Single dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="support" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Support
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="support">
-                            
-                            
-                            <a class="dropdown-item" href="https://webb.org" target="_blank">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <span class="px-1 text-primary">
-                                            <i class="icon icon-book"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <div class="px-2">
-                                            <p>Webbsite</p>
-                                            <span class="label">Webb's official website</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-                            
-                            <a class="dropdown-item" href="https://www.webb.org/admission/apply/" target="_blank">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <span class="px-1 text-dark">
-                                            <i class="icon icon-thumbs-up"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <div class="px-2">
-                                            <p>Apply now</p>
-                                            <span class="label">Go to admission portal</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-
-                            <a class="dropdown-item" href="team.html" target="_blank">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <span class="px-1 text-danger">
-                                            <i class="icon icon-heart-pulse"></i>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <div class="px-2">
-                                            <p>Helpdesk</p>
-                                            <span class="label">Give us some feedback </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu_bar">
             </div>
-    
-            <!-- Navbar toggler -->
-    
-            <div class="d-flex align-items-center">
-                <a class="btn btn-sm btn-primary btn-rounded ml-lg-4 px-3" href="new_view.html" style="background-color:#08F;border-color:#08F;">
-                    Tour now
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="T  oggle navigation">
-                    <span class="icon icon-menu"></span>
-                </button>
-            </div>
-    
-        </div>
-    </nav>
+          </div>
+        </li>
+      </nav>
+    </div>
+  </div>
 
-    <div id="pano"></div>
+
+  <!--<div id="pano"></div>
+    
       <div class="container">
         <h1 id="title"></h1>
         <div class="row">
@@ -184,44 +219,44 @@
             <p id="description2"></p>
           </div>
         </div>
-      </div>
-      <br>
-      <div style="text-align: center;">
-          <button id="butt" onclick="goToLastPlace()" style="background-color:#08F;border-color:#08F;"> Last place </button>
-          <button id="butt" onclick="goToNextPlace()" style="background-color:#08F;border-color:#08F;"> Next place </button>
-      </div>
-      <br>
-      <br>
-    
+      </div> 
+  <br>
+  <div style="text-align: center;">
+    <button id="butt" onclick="goToLastPlace()" style="background-color:#08F;border-color:#08F;"> Last place </button>
+    <button id="butt" onclick="goToNextPlace()" style="background-color:#08F;border-color:#08F;"> Next place </button>
+  </div>
+  <br>
+  <br> -->
 
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsYNcoCH1QtcagcbPzfwOBetYuv5OA-cs&callback=initialize">
-    </script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsYNcoCH1QtcagcbPzfwOBetYuv5OA-cs&callback=initialize">
+  </script>
 
-    <script src="new_view_data.js"></script>
-    <script src="new_view_controller.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
-    <!-- Vendor Scripts -->
+  <script src="new_view_data.js"></script>
+  <script src="new_view_controller.js"></script>
 
-    <script src="js/vendor/jquery.min.js"></script>
-    <script src="js/vendor/bootstrap.bundle.js"></script>
-    <script src="js/vendor/in-view.min.js"></script>
-    <script src="js/vendor/jquery.lavalamp.js"></script>
-    <script src="js/vendor/owl.carousel.js"></script>
-    <script src="js/vendor/rellax.js"></script>
-    <script src="js/vendor/wow.js"></script>
-    <script src="js/vendor/tabzy.js"></script>
-    <script src="js/vendor/isotope.pkgd.js"></script>
+  <!-- Vendor Scripts -->
 
-    <!-- Template Scripts -->
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/vendor/bootstrap.bundle.js"></script>
+  <script src="js/vendor/in-view.min.js"></script>
+  <script src="js/vendor/jquery.lavalamp.js"></script>
+  <script src="js/vendor/owl.carousel.js"></script>
+  <script src="js/vendor/rellax.js"></script>
+  <script src="js/vendor/wow.js"></script>
+  <script src="js/vendor/tabzy.js"></script>
+  <script src="js/vendor/isotope.pkgd.js"></script>
 
-    <script src="js/main.js"></script>
-    <script src="js/custom.js"></script>
+  <!-- Template Scripts -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="js/custom.js"></script>
 
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
 </html>

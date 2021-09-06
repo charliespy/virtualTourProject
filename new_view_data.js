@@ -9,6 +9,7 @@ var places_list =
       'heading': 50,
       'pitch': 10,
       'marker' : 'True',
+      'pictures' : 'True',
     },
     {
       'title': 'Inside gate',

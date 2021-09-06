@@ -1,5 +1,9 @@
 // initilization 
-var index = 0;
+var index = 0;  
+if (places_list[index].pictures == 'True'){
+    var element = document.getElementById("hiddenA");
+    element.classList.toggle("opacity-0");
+  }
 
 $( document ).ready(function() {
     for(var i = 0; i < places_list.length; i++) {
