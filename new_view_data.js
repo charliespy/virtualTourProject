@@ -10,6 +10,13 @@ var places_list =
       'pitch': 10,
       'marker' : 'True',
       'pictures' : 'True',
+      'links': [
+        {
+          'heading': 50,
+          'description': "Next Place",
+          'pano': "Inside gate",
+        },
+      ],
     },
     {
       'title': 'Inside gate',
@@ -19,6 +26,12 @@ var places_list =
       'lng': -117.7390033,
       'heading': 10,
       'pitch': 10,
+      'links': [
+        {
+          'heading': 50,
+          'description': "Admission Office",
+        },
+      ],
     },
     {
       'title': 'Admission Office',

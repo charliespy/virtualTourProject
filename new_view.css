@@ -24,6 +24,11 @@
         height: 100%;
         width: 100%;
       }
+      #map{
+        float: left;
+        height: 100%;
+        width: 0%;
+      }
       h1{
         font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
         font-size: 30px;
