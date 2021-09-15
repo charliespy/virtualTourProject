@@ -7,15 +7,15 @@ var places_list =
       'lat': 34.121775,
       'lng': -117.738745,
       'heading': 50,
-      'pitch': 10,
+      'pitch': 0,
       'marker' : 'True',
       'pictures' : 'True',
       'links': [
         {
-          'heading': 50,
-          'description': "Next Place",
-          'pano': "Inside gate",
-        },
+          'description' : 'Inside Gate',
+          'heading' : -5,
+          'link':'CAoSLEFGMVFpcE8wVVhwT0t6aTg5S1hwenJJb1JOWUQ1c0dnNFpYdEo0RVpBTkt2',
+        }
       ],
     },
     {
@@ -28,9 +28,10 @@ var places_list =
       'pitch': 10,
       'links': [
         {
-          'heading': 50,
-          'description': "Admission Office",
-        },
+          'description' : 'Inside Gate',
+          'heading' : 130,
+          'link':'CAoSLEFGMVFpcFBPbFJmemRhNWJLQjdKVlpxbVJWTTJKME95VG8tMVhZR2JYT3N0',
+        }
       ],
     },
     {
