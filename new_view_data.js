@@ -1,6 +1,7 @@
 var places_list =
   [
     {
+      'pano' : 'CAoSLEFGMVFpcFBPbFJmemRhNWJLQjdKVlpxbVJWTTJKME95VG8tMVhZR2JYT3N0', 
       'title': 'Front Gate',
       'description1': 'Welcome to the Webb Schools in Claremont, California! This will be the place where your journey begins. Let’s jump right into it, shall we?',
       'description2': 'Scroll down the page to find the “Next Place” button to begin the tour!',
@@ -15,10 +16,11 @@ var places_list =
           'description' : 'Inside Gate',
           'heading' : -5,
           'link':'CAoSLEFGMVFpcE8wVVhwT0t6aTg5S1hwenJJb1JOWUQ1c0dnNFpYdEo0RVpBTkt2',
-        }
+        }, 
       ],
     },
     {
+      'pano' : 'CAoSLEFGMVFpcE8wVVhwT0t6aTg5S1hwenJJb1JOWUQ1c0dnNFpYdEo0RVpBTkt2',
       'title': 'Inside gate',
       'description1' : 'This is the entrance to the main campus. To your front, you can already see some of the buildings such as the Hooper Student Center and the Science Building. To your left, you can see the sweeping lawn that serves both as a recreation space, occasional parking and as a venue for large-scale outdoor gatherings – one of several such locations on our campus. To your right/back, we have the main visitor parking area.',
       'description2': 'Just a brief snapshot of Webb here. We are two schools on one campus: The Webb School of California (WSC) for the boys and the Vivian Webb School (VWS) for the girls. WSC was founded in 1922 by Thompson and Vivian Webb; VWS was created in 1981. In freshman and sophomore years (9th and 10th grade), most courses are single gender. In junior and senior year (11th and 12th grade), classes are co-ed. Webb enrolls about 410 students, 60% are boarding and 40% are day, and our campus is spread across more than 150 acres.',
@@ -28,13 +30,19 @@ var places_list =
       'pitch': 10,
       'links': [
         {
-          'description' : 'Inside Gate',
+          'description' : 'Front Gate',
           'heading' : 130,
           'link':'CAoSLEFGMVFpcFBPbFJmemRhNWJLQjdKVlpxbVJWTTJKME95VG8tMVhZR2JYT3N0',
+        },
+        {
+          'description' : 'Admission Office',
+          'heading' : 60,
+          'link':'CAoSLEFGMVFpcE5tdXBWUWh4ZHFvRC1aTUFYV2NlTDZxZVZPcDJVRld2eWhCZmdY',
         }
       ],
     },
     {
+      'pano':'CAoSLEFGMVFpcE5tdXBWUWh4ZHFvRC1aTUFYV2NlTDZxZVZPcDJVRld2eWhCZmdY',
       'title': 'Admission Office',
       'description1': 'We are now visiting the Webb House, the former home of our founders Thompson and Vivian Webb, who lived and raised their four boys on Webb’s campus. Webb House is now the home of the Admission Office and the first stop for prospective families visiting campus.',
       'description2': 'The virtual tour will follow the on-campus tour route, but thanks to the magic of the internet, we’ll be able to visit places that you wouldn’t normally see during an on-campus tour. Your next stop will be across the street from the Admissions Office – the Alf Museum.',
@@ -43,6 +51,13 @@ var places_list =
       'heading': 190,
       'pitch': 10,
       'marker' : 'True',
+      'links': [
+        {
+          'description' : 'Inside Gate',
+          'heading' : 300,
+          'link':'CAoSLEFGMVFpcE8wVVhwT0t6aTg5S1hwenJJb1JOWUQ1c0dnNFpYdEo0RVpBTkt2',
+        }, 
+      ],
     },
     {
       'title': 'Alf Museum',
