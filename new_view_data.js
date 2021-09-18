@@ -8,7 +8,7 @@ var places_list =
       'lat': 34.121775,
       'lng': -117.738745,
       'heading': 50,
-      'pitch': 0,
+      'pitch': -20,
       'marker' : 'True',
       'pictures' : 'True',
       'links': [
@@ -27,7 +27,7 @@ var places_list =
       'lat': 34.1229888,
       'lng': -117.7390033,
       'heading': 10,
-      'pitch': 10,
+      'pitch': -20,
       'links': [
         {
           'description' : 'Front Gate',
@@ -35,9 +35,9 @@ var places_list =
           'link':'CAoSLEFGMVFpcFBPbFJmemRhNWJLQjdKVlpxbVJWTTJKME95VG8tMVhZR2JYT3N0',
         },
         {
-          'description' : 'Admission Office',
-          'heading' : 60,
-          'link':'CAoSLEFGMVFpcE5tdXBWUWh4ZHFvRC1aTUFYV2NlTDZxZVZPcDJVRld2eWhCZmdY',
+          'description' : 'Hooper2',
+          'heading' : -10,
+          'link':'CAoSLEFGMVFpcFBKSEYwZTFDOGpfbHBLcUo2dXZpT3I0VzcwRWhVQjhyTlFPbzlq',
         }
       ],
     },
@@ -49,14 +49,14 @@ var places_list =
       'lat': 34.1233833,
       'lng': -117.7383917,
       'heading': 190,
-      'pitch': 10,
+      'pitch': -20,
       'marker' : 'True',
       'links': [
         {
           'description' : 'Inside Gate',
           'heading' : 300,
           'link':'CAoSLEFGMVFpcE8wVVhwT0t6aTg5S1hwenJJb1JOWUQ1c0dnNFpYdEo0RVpBTkt2',
-        }, 
+        },
       ],
     },
     {
@@ -66,7 +66,7 @@ var places_list =
       'lat': 34.1235167,
       'lng': -117.7387117,
       'heading': 165,
-      'pitch': 10,
+      'pitch': -20,
       'marker' : 'True',  
     },
     {
@@ -76,7 +76,7 @@ var places_list =
       'lat': 34.1234612,
       'lng': -117.7388167,
       'heading': 150,
-      'pitch': 10,
+      'pitch': -20,
     },
     {
       'title': 'Alf Museum3',
@@ -85,7 +85,7 @@ var places_list =
       'lat': 34.123525,
       'lng': -117.7387367,
       'heading': 34,
-      'pitch': 10,
+      'pitch': -20,
     },
     {
       'title': 'Alf Museum4',
@@ -94,7 +94,7 @@ var places_list =
       'lat': 34.1235222,
       'lng': -117.73893,
       'heading': 215,
-      'pitch': 10,
+      'pitch': -20,
     },
     {
       'title': 'Paleontology Lab',
@@ -103,7 +103,7 @@ var places_list =
       'lat': 34.1233055,
       'lng': -117.7388717,
       'heading': 325,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Paleontology Lab2',
@@ -112,7 +112,7 @@ var places_list =
       'lat': 34.1227,
       'lng': -117.73892,
       'heading': 180,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Science Building',
@@ -121,7 +121,7 @@ var places_list =
       'lat': 34.1234833,
       'lng': -117.7390583,
       'heading': 0,
-      'pitch': -10,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -131,7 +131,7 @@ var places_list =
       'lat': 34.1238972,
       'lng': -117.739125,
       'heading': -5,
-      'pitch': 10,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -141,7 +141,7 @@ var places_list =
       'lat': 34.1239805,
       'lng': -117.7389133,
       'heading': 0,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Fawcett Library Classroom',
@@ -150,7 +150,7 @@ var places_list =
       'lat': 34.124125,
       'lng': -117.738925,
       'heading': 150,
-      'pitch': 10,
+      'pitch': -20,
     },
     {
       'title': 'Jackson Library',
@@ -159,7 +159,7 @@ var places_list =
       'lat': 34.1237583,
       'lng': -117.7384417,
       'heading': 195,
-      'pitch': 10,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -169,7 +169,7 @@ var places_list =
       'lat': 34.1236278,
       'lng': -117.7381867,
       'heading': -5,
-      'pitch': 5,
+      'pitch': -20,
     },
     {
       'title': 'Old School House',
@@ -178,7 +178,7 @@ var places_list =
       'lat': 34.1241112,
       'lng': -117.7393583,
       'heading': 0,
-      'pitch': 10,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -188,7 +188,7 @@ var places_list =
       'lat': 34.1240667,
       'lng': -117.7392167,
       'heading': 220,
-      'pitch': 10,
+      'pitch': -20,
     },
     {
       'title': 'Old School House Classroom',
@@ -197,7 +197,7 @@ var places_list =
       'lat': 34.1240667,
       'lng': -117.739745,
       'heading': -25,
-      'pitch': 10,
+      'pitch': -20,
     },
     {
       'title': 'Susan Nelson Performing Arts Center',
@@ -206,7 +206,7 @@ var places_list =
       'lat': 34.1239612,
       'lng': -117.73957,
       'heading': -12,
-      'pitch': 5,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -216,17 +216,30 @@ var places_list =
       'lat': 34.1236862,
       'lng': -117.73933,
       'heading': 200,
-      'pitch': 5,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
+      'pano': 'CAoSLEFGMVFpcFBKSEYwZTFDOGpfbHBLcUo2dXZpT3I0VzcwRWhVQjhyTlFPbzlq',
       'title': 'Hooper Student Center2',
       'description1': 'Right through the front doors of Hooper you can see an overview of its interior. Starting at the very left is the concierge desk. Turning away from the desk you can see the main seating area with all reconfigurable furniture setups. The four TV screens can be used to show one show or used for four smaller activities, including gaming.',
       'description2': 'Now directly down the center and to the left you will find the bathrooms. Turning right is the cafe, a working area for students and the meeting room for students. To the far right are admin offices for faculty who will be working in Hooper.',
       'lat': 34.1235417,
       'lng': -117.7393717,
       'heading': 30,
-      'pitch': 0,
+      'pitch': -20,
+      'links': [
+        {
+          'description' : 'Inside Gate',
+          'heading' : 270,
+          'link':'CAoSLEFGMVFpcE8wVVhwT0t6aTg5S1hwenJJb1JOWUQ1c0dnNFpYdEo0RVpBTkt2',
+        }, 
+        {
+          'description' : 'Admission Office',
+          'heading' : 180,
+          'link':'CAoSLEFGMVFpcE5tdXBWUWh4ZHFvRC1aTUFYV2NlTDZxZVZPcDJVRld2eWhCZmdY',
+        }, 
+      ],
     },
     {
       'title': 'Hooper Student Center3',
@@ -235,7 +248,7 @@ var places_list =
       'lat': 34.1235778,
       'lng': -117.7395417,
       'heading': 20,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Hooper Student Center4',
@@ -244,7 +257,7 @@ var places_list =
       'lat': 34.1236583,
       'lng': -117.7394533,
       'heading': 0,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Price Dining Hall',
@@ -253,7 +266,7 @@ var places_list =
       'lat': 34.1242695,
       'lng': -117.7398867,
       'heading': -5,
-      'pitch': 10,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -263,7 +276,7 @@ var places_list =
       'lat': 34.1244805,
       'lng': -117.739955,
       'heading': 180,
-      'pitch': 10,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -273,7 +286,7 @@ var places_list =
       'lat': 34.1251667,
       'lng': -117.7399667,
       'heading': -5,
-      'pitch': 0,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -283,7 +296,7 @@ var places_list =
       'lat': 34.1250695,
       'lng': -117.7401167,
       'heading': 0,
-      'pitch': 5,
+      'pitch': -20,
     },
     {
       'title': 'Vivian Webb Chapel3',
@@ -292,7 +305,7 @@ var places_list =
       'lat': 34.1250805,
       'lng': -117.7403383,
       'heading': 0,
-      'pitch': 5,
+      'pitch': -20,
     },
     {
       'title': 'Vivian Webb Chapel4',
@@ -301,7 +314,7 @@ var places_list =
       'lat': 34.1250167,
       'lng': -117.740155,
       'heading': 165,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'The Crossroad',
@@ -310,7 +323,7 @@ var places_list =
       'lat': 34.1244722,
       'lng': -117.739145,
       'heading': 170,
-      'pitch': 0,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -320,7 +333,7 @@ var places_list =
       'lat': 34.1239305,
       'lng': -117.7386633,
       'heading': 190,
-      'pitch': 5,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -330,7 +343,7 @@ var places_list =
       'lat': 34.1252638,
       'lng': -117.7390033,
       'heading': 175,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Dorms 3 (Common room)',
@@ -339,7 +352,7 @@ var places_list =
       'lat': 34.1240805,
       'lng': -117.738325,
       'heading': -40,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Dorms 4 (Single room)',
@@ -348,7 +361,7 @@ var places_list =
       'lat': 34.1244112,
       'lng': -117.7391033,
       'heading': -20,
-      'pitch': 5,
+      'pitch': -20,
     },
     {
       'title': 'Dorms 5 (Double room)',
@@ -357,7 +370,7 @@ var places_list =
       'lat': 34.1239778,
       'lng': -117.7382717,
       'heading': 175,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Gymnasium',
@@ -366,7 +379,7 @@ var places_list =
       'lat': 34.1278278,
       'lng': -117.7400533,
       'heading': -30,
-      'pitch': 5,
+      'pitch': -20,
       'marker' : 'True',
     },
     {
@@ -376,7 +389,7 @@ var places_list =
       'lat': 34.1280112,
       'lng': -117.7401533,
       'heading': 215,
-      'pitch': 5,
+      'pitch': -20,
     },
     {
       'title': 'Faculty Field',
@@ -385,7 +398,7 @@ var places_list =
       'lat': 34.1279222,
       'lng': -117.7407117,
       'heading': 180,
-      'pitch': 00,
+      'pitch': -20,
     },
     {
       'title': 'Chandler Field',
@@ -394,7 +407,7 @@ var places_list =
       'lat': 34.125225,
       'lng': -117.737425,
       'heading': 0,
-      'pitch': 00,
+      'pitch': -20,
     },
     {
       'title': 'Aquatics Center',
@@ -403,7 +416,7 @@ var places_list =
       'lat': 34.1250945,
       'lng': -117.7385,
       'heading': 135,
-      'pitch': 0,
+      'pitch': -20,
     },
     {
       'title': 'Observatory',
@@ -412,7 +425,7 @@ var places_list =
       'lat': 34.1267528,
       'lng': -117.7408717,
       'heading': 160,
-      'pitch': 5,
+      'pitch': -20,
       'marker' : 'True',
     }
   ];
