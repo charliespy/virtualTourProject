@@ -9,11 +9,6 @@ var index = 0;
 function goToNextPlace() {
   index++;
 
-  $("#title").text(places_list[index].title);
-  $("#description1").text(places_list[index].description1);
-  $("#description2").text(places_list[index].description2);
-  $("#heading").text('Virtual Tour Webb | ' + places_list[index].title);
-
   const location = { lat: places_list[index].lat, lng: places_list[index].lng };
   const map = new google.maps.Map(document.getElementById("map"), {
     center: location,
@@ -97,6 +92,7 @@ function myInitialize() {
   map.setStreetView(panorama);
 
   panorama.addListener("links_changed", () => {
+    console.log("--------------------------------------");
     console.log('The panoId now is ' + panorama.getPano());
     index = findIndexByPano(panorama.getPano());
     console.log('The index now is ' + index);
