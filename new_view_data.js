@@ -251,8 +251,77 @@ var places_list =
     //       'heading': 220,
     //       'link': 'CAoSLEFGMVFpcE11OUZZSGRDVVVWNG9yTW9UYnNnV2YzankyRkpVWFAyYWttbXBv',
     //     },
+    //     {
+    //       'description': 'Guayules',
+    //       'heading': 310,
+    //       'link': 'CAoSK0FGMVFpcE5wcjRmY2pFQk9TZlFWSG40Zjk5TU5BaE1tMFI4STRGUWRmRVU.',
+    //     },
     //   ],
     // },
+
+    // {
+    //   'pano': 'CAoSK0FGMVFpcE5wcjRmY2pFQk9TZlFWSG40Zjk5TU5BaE1tMFI4STRGUWRmRVU.',
+    //   'title': 'Outside Guayules',
+    //   'description1': '',
+    //   'description2': '',
+    //   'lat': 34.123867,
+    //   'lng': -117.7379761,
+    //   'heading': 45,
+    //   'pitch': -5,
+    //   'links': [
+    //     {
+    //       'description': 'Noho Crossroads',
+    //       'heading': 260,
+    //       'link': 'CAoSK0FGMVFpcE0tVTNHX3FPSHJtMnA0Sm1ROHNPem1JV1o0Y2x2OF9QNzNsOTA',
+    //     },
+    //     {
+    //       'description': 'Chandler Entrance',
+    //       'heading': 60,
+    //       'link': 'CAoSK0FGMVFpcE1ZQnptczdFZW9GdVRjbTE5MVN6QllOU3ZGaEdBaFZtcklsVjQ.',
+    //     },
+    //   ],
+    // },
+    // {
+    //   'pano': 'CAoSK0FGMVFpcE1ZQnptczdFZW9GdVRjbTE5MVN6QllOU3ZGaEdBaFZtcklsVjQ.',
+    //   'title': 'Chandler Entrance',
+    //   'description1': '',
+    //   'description2': '',
+    //   'lat': 34.124157,
+    //   'lng': -117.7377777,
+    //   'heading': 120,
+    //   'pitch': -10,
+    //   'links': [
+    //     {
+    //       'description': 'Guayules',
+    //       'heading': 350,
+    //       'link': 'CAoSK0FGMVFpcE5wcjRmY2pFQk9TZlFWSG40Zjk5TU5BaE1tMFI4STRGUWRmRVU.',
+    //     },
+    //     {
+    //       'description': 'baseball',
+    //       'heading': 140,
+    //       'link': 'CAoSLEFGMVFpcE1ETk0zeDhfcEw1QVM5QVNtTUF2cVBtT1lFOXVxSnd6RFJxWXZZ',
+    //     },
+    //   ],
+    // },
+    // {
+    //   'pano': 'CAoSLEFGMVFpcE1ETk0zeDhfcEw1QVM5QVNtTUF2cVBtT1lFOXVxSnd6RFJxWXZZ',
+    //   'title': 'Chandler Field',
+    //   'description1': 'Thought we only have one athletic field? This is Chandler Field, located on the southern end of campus right next to the Admission Office. Webb also has a third field behind Les Perry Gymnasium for soccer practices, football practices and softball games.',
+    //   'description2': 'Chandler Field hosts soccer matches in the fall, baseball matches in the spring and cross-country practices. Our next stop is the Aquatics Center, so be ready to get a little wet!',
+    //   'lat': 34.125225,
+    //   'lng': -117.737425,
+    //   'heading': 0,
+    //   'pitch': -20,
+    //   'links': [
+    //     {
+    //       'description': 'chandler entrance',
+    //       'heading': 255,
+    //       'link': 'CAoSK0FGMVFpcE1ZQnptczdFZW9GdVRjbTE5MVN6QllOU3ZGaEdBaFZtcklsVjQ.',
+    //     },
+    //   ],
+    // },
+
+
     // {
     //   'pano': 'CAoSLEFGMVFpcE11OUZZSGRDVVVWNG9yTW9UYnNnV2YzankyRkpVWFAyYWttbXBv',
     //   'title': 'The Hutches',
@@ -624,8 +693,87 @@ var places_list =
     //       'heading': 320,
     //       'link': 'CAoSLEFGMVFpcE5BQnowS29aYnJqOTJtTy14NmdTOG52bWR4MFhaVFp1Z192RDla',
     //     },
+    //     {
+    //       'description': 'Museum',
+    //       'heading': 150,
+    //       'link': 'CAoSK0FGMVFpcE42YzZQZFFzRHpWM0pHUUNRdkhwUU9XMEt1eTJoeEZZRDVKV2s.',
+    //     },
     //   ],
     // },
+    {
+      'pano': 'CAoSK0FGMVFpcE42YzZQZFFzRHpWM0pHUUNRdkhwUU9XMEt1eTJoeEZZRDVKV2s.',
+      'title': 'Museum front',
+      'description1': '',
+      'description2': '',
+      'lat': 34.1233837,
+      'lng': -117.7387659,
+      'heading': 180,
+      'pitch': 5,
+      'links': [
+        {
+          'description': 'inside',
+          'heading': 180,
+          'link': 'CAoSK0FGMVFpcFBSY1JiUDFUbEVoV0dfNEl2ZjB0QmxodlpZbW04R3dxS08tUWM.',
+        },
+      ],
+  },
+  {
+    'pano': 'CAoSK0FGMVFpcFBSY1JiUDFUbEVoV0dfNEl2ZjB0QmxodlpZbW04R3dxS08tUWM.',
+    'title': 'Museum Inside',
+    'description1': '',
+    'description2': '',
+    'lat': 34.1235123,
+    'lng': -117.7387085,
+    'heading': 175,
+    'pitch': 0,
+    'links': [
+      {
+        'description': 'outside',
+        'heading': 0,
+        'link': 'CAoSK0FGMVFpcE42YzZQZFFzRHpWM0pHUUNRdkhwUU9XMEt1eTJoeEZZRDVKV2s.',
+      },
+    ],
+},
+
+
+
+
+
+
+    {
+      'pano': 'CAoSK0FGMVFpcE1fU2lad09QeVJsRUlRZl9iMWJLRHNGQTJkbURUZ3VnMlBLblU.',
+      'title': 'Museum1',
+      'description1': '',
+      'description2': '',
+      'lat': 34.1234398,
+      'lng': -117.7387695,
+      'heading': 220,
+      'pitch': -10,
+      'links': [
+          {
+              'description': '',
+              'heading': 0,
+              'link': '',
+          },
+      ],
+  },
+    {
+      'pano': 'CAoSK0FGMVFpcE5wODUyUktnNzRKY3RJTmJWOTZvMHVvb1F2R05EcHBtM1BLSms.',
+      'title': 'MuseumX',
+      'description1': '',
+      'description2': '',
+      'lat': 34.1237534,
+      'lng': -117.7392923,
+      'heading': 190,
+      'pitch': 0,
+      'links': [
+        {
+          'description': '',
+          'heading': 0,
+          'link': '',
+        },
+      ],
+  },
 
 
 
@@ -703,37 +851,7 @@ var places_list =
 
 
 
-    //   {
-    //     'pano': 'CAoSLEFGMVFpcE5kMWdNYkpGTndNcjI4dkdVak5hM3hzc3NPeGtNUnp5UXpJUXlJ',
-    //     'title': 'Paleontology Lab',
-    //     'description1': 'Webb students may work at the museum and take advanced courses in paleontology and museum studies. They can also work within the museum’s paleontology lab, researching and cataloguing the museum’s vast holdings.',
-    //     'description2': 'This is the collections room. It is used for lab work with specimens, including measuring, cleaning and photographing. To your back are rows of electrically powered cabinets that shift configurations to accommodate a greater number of specimens.',
-    //     'lat': 34.1233055,
-    //     'lng': -117.7388717,
-    //     'heading': 325,
-    //     'pitch': -20,
-    //   },
-    //   {
-    //     'pano': 'CAoSLEFGMVFpcFB0Um11X0xlSlhwTVc3QkVpMXFiOFhhWWhBMFFaWkFYVzI2Q0VD',
-    //     'title': 'Paleontology Lab2',
-    //     'description1': 'You can also choose to participate in the paleontology program in afternoon activities, as well. Every Webb student joins an afternoon activity or participates on a sports team weekdays from 3 to 5 p.m. and we’ll get into more detail on that later in the tour.',
-    //     'description2': 'This is the preparation room. When you find a fossil on a trip, you will encase the fragile specimen in a plaster cast to protect it from breaking. After you return, you remove the cast and any remaining dirt or rocks from the fossil.',
-    //     'lat': 34.1227,
-    //     'lng': -117.73892,
-    //     'heading': 180,
-    //     'pitch': -20,
-    //   },
-    //   {
-    //     'pano': 'CAoSLEFGMVFpcE5LNUM1UzZCdDR3TWZPQXFBcFp4eUNGVUdyU1Z1YkVIcDlGWFJ4',
-    //     'title': 'Science Building',
-    //     'description1': 'Welcome to the science building! Connected to the paleontology museum, it’s where students attend science classes and conduct laboratory experiments. Classrooms are split into two parts. The front section allows teachers to provide instruction; the back section gives students the opportunity to conduct experiments.',
-    //     'description2': 'Webb’s science curriculum is designed to encourage applied learning, bold creativity, authentic discovery and unbounded thinking. Every ninth-grade student will take Evolutionary Biology, and every 10th-grade student will take Integrated Physics and Chemistry. In in 11th and 12th grades, students may choose science classes from an extensive list of advanced courses.',
-    //     'lat': 34.1234833,
-    //     'lng': -117.7390583,
-    //     'heading': 0,
-    //     'pitch': -20,
-    //     'marker': 'True',
-    //   },
+      
 
     //   {
     //     'pano': 'CAoSLEFGMVFpcE9oNjRveTNFWDZIcDh3M1Rvbmx2QjRkcXR6bEdmTnRiZ2hTbXMw',
@@ -953,7 +1071,6 @@ var places_list =
     //     ],
     // },
 
-    //TODO: link this with Liu Cheung
     // {
     //   'pano': 'CAoSLEFGMVFpcE9SRXJ1RDNQVmo3dURGTG8tTWdFcWhSMmJvVkhXMjFIVUdxbUdP',
     //   'title': 'Hooper Student Center Behind',
@@ -1161,16 +1278,7 @@ var places_list =
 
 
 
-    {
-      'pano': 'CAoSLEFGMVFpcE1ETk0zeDhfcEw1QVM5QVNtTUF2cVBtT1lFOXVxSnd6RFJxWXZZ',
-      'title': 'Chandler Field',
-      'description1': 'Thought we only have one athletic field? This is Chandler Field, located on the southern end of campus right next to the Admission Office. Webb also has a third field behind Les Perry Gymnasium for soccer practices, football practices and softball games.',
-      'description2': 'Chandler Field hosts soccer matches in the fall, baseball matches in the spring and cross-country practices. Our next stop is the Aquatics Center, so be ready to get a little wet!',
-      'lat': 34.125225,
-      'lng': -117.737425,
-      'heading': 0,
-      'pitch': -20,
-    },
+
     {
       'pano': 'CAoSLEFGMVFpcFBJZ1dLWEQ3VmlSNUE3TldEa0lpMVJQTWIzRXJvWjZ3TmpYWjNI',
       'title': 'Aquatics Center',
