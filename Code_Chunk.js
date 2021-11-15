@@ -231,125 +231,11 @@ data = [
 
 
 
+
+
     
     
     
-    
-    {
-        'pano': 'CAoSK0FGMVFpcE1sTl9WTmJoSkhjbkJyNmFaaEh0S0phQjF4RTZodklZQUlNb0E.',
-        'title': 'Gym Hill Top',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1274906,
-        'lng': -117.7402777,
-        'heading': 170,
-        'pitch': -10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-    {
-        'pano': 'CAoSK0FGMVFpcE15SWNmVHRpSnV0cExxaHpfQTRCNEFPVkRkY1RYdTRrOUxOSTg.',
-        'title': 'Liu Cheung',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1239544,
-        'lng': -117.7395716,
-        'heading': 180,
-        'pitch': 10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    {
-        'pano': 'CAoSK0FGMVFpcFBYdUtjYUkxbzVHT09GTVNRcWhzcXVnZlNDSWZaV2ZNOWFqQlE.',
-        'title': 'Theater Left',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1241112,
-        'lng': -117.7396326,
-        'heading': 180,
-        'pitch': -10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    {
-        'pano': 'CAoSK0FGMVFpcE5Dc3QyRlhuTFRvZXpjbFRQa3hFTkRVbDJyY21feVYtOE4wRWs.',
-        'title': 'Theater Middle',
-        'description1': '',
-        'description2': '',
-        'lat': 34.124115,
-        'lng': -117.7395554,
-        'heading': 355,
-        'pitch': -10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    {
-        'pano': 'CAoSK0FGMVFpcE5SWGxjX3BJckYyNXU4cDRfTHdHMUp4bXl6LW1QVUNNVHVQWjQ.',
-        'title': 'Theater Right',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1241341,
-        'lng': -117.7394562,
-        'heading': 15,
-        'pitch': -10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    {
-        'pano': 'CAoSK0FGMVFpcFAxMExQcy1FTmdSb3FlSXd4Vy1CU3k4TzRxTmNFd256Y3N6QmM.',
-        'title': 'Theater on Stage',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1242638,
-        'lng': -117.7394562,
-        'heading': 0,
-        'pitch': -10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
 
 
 
@@ -398,6 +284,10 @@ data = [
         //   },
         // ],
     },
+
+
+
+
     
     {
         'pano': 'CAoSK0FGMVFpcFBPeEdhMHludF9RcTRCRlVsbG1TTTRoSzNud19IczBGd0QxWlk.',
@@ -502,6 +392,12 @@ data = [
         // ],
     },    
     
+
+
+
+
+
+
     {
         'pano': 'CAoSK0FGMVFpcFB2aXlycGd1VmNiLVZiYm9XNVBuQjRZUmM2VFd4U0ZYY1d0Mms.',
         'title': 'Double Room',

@@ -386,72 +386,94 @@ var places_list =
     //     },
     //   ],
     // },
-    // {
-    //   'pano': 'CAoSK0FGMVFpcFBhbzkya0Nqc1BNSXRheVlrVFdsRjdwQXRJY2VZSFp5eFo0Y00.',
-    //   'title': 'Outside Holt',
-    //   'description1': '',
-    //   'description2': '',
-    //   'lat': 34.1256371,
-    //   'lng': -117.7393494,
-    //   'heading': 330,
-    //   'pitch': 10,
-    //   'links': [
-    //     {
-    //       'description': 'downhill',
-    //       'heading': 160,
-    //       'link': 'CAoSK0FGMVFpcE5vWWJPa1JQaW9HckJISXFkcW83dWVJdTR5ZkxNSE9CRm55LXM.',
-    //     },
-    //     {
-    //       'description': 'uphill',
-    //       'heading': 300,
-    //       'link': 'CAoSK0FGMVFpcE9URkhZYkthb0RJalA0T2lBX1hXUXVGdVpmUGtCc1gwOEs1WEk.',
-    //     },
-    //     {
-    //       'description': 'chapel',
-    //       'heading': 270,
-    //       'link': 'CAoSK0FGMVFpcE12NmVVT3htR01kMGQxOWpSSERCSjRuTDRoNmdBSk1MNW4tNk0.',
-    //     },
-    //   ],
+    //   {
+    //     'pano': 'CAoSK0FGMVFpcFBhbzkya0Nqc1BNSXRheVlrVFdsRjdwQXRJY2VZSFp5eFo0Y00.',
+    //     'title': 'Outside Holt',
+    //     'description1': '',
+    //     'description2': '',
+    //     'lat': 34.1256371,
+    //     'lng': -117.7393494,
+    //     'heading': 330,
+    //     'pitch': 10,
+    //     'links': [
+    //       {
+    //         'description': 'downhill',
+    //         'heading': 160,
+    //         'link': 'CAoSK0FGMVFpcE5vWWJPa1JQaW9HckJISXFkcW83dWVJdTR5ZkxNSE9CRm55LXM.',
+    //       },
+    //       {
+    //         'description': 'uphill',
+    //         'heading': 310,
+    //         'link': 'CAoSK0FGMVFpcE1sTl9WTmJoSkhjbkJyNmFaaEh0S0phQjF4RTZodklZQUlNb0E.',
+    //       },
+    //       {
+    //         'description': 'chapel',
+    //         'heading': 270,
+    //         'link': 'CAoSK0FGMVFpcE12NmVVT3htR01kMGQxOWpSSERCSjRuTDRoNmdBSk1MNW4tNk0.',
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     'pano': 'CAoSK0FGMVFpcE12NmVVT3htR01kMGQxOWpSSERCSjRuTDRoNmdBSk1MNW4tNk0.',
+    //     'title': 'Holt to Chapel',
+    //     'description1': '',
+    //     'description2': '',
+    //     'lat': 34.1257439,
+    //     'lng': -117.7399139,
+    //     'heading': 350,
+    //     'pitch': 0,
+    //     'links': [
+    //       {
+    //         'description': 'holt',
+    //         'heading': 250,
+    //         'link': 'CAoSK0FGMVFpcFBhbzkya0Nqc1BNSXRheVlrVFdsRjdwQXRJY2VZSFp5eFo0Y00.',
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     'pano': 'CAoSK0FGMVFpcE1sTl9WTmJoSkhjbkJyNmFaaEh0S0phQjF4RTZodklZQUlNb0E.',
+    //     'title': 'Gym Hill 3',
+    //     'description1': '',
+    //     'description2': '',
+    //     'lat': 34.1274906,
+    //     'lng': -117.7402777,
+    //     'heading': 170,
+    //     'pitch': -10,
+    //     'links': [
+    //       {
+    //         'description': 'uphill',
+    //         'heading': 0,
+    //         'link': 'CAoSK0FGMVFpcFBhbzkya0Nqc1BNSXRheVlrVFdsRjdwQXRJY2VZSFp5eFo0Y00.',
+    //       },
+    //       {
+    //         'description': 'downhill',
+    //         'heading': 180,
+    //         'link': 'CAoSK0FGMVFpcE9URkhZYkthb0RJalA0T2lBX1hXUXVGdVpmUGtCc1gwOEs1WEk.',
+    //       },
+    //     ],
     // },
-    // {
-    //   'pano': 'CAoSK0FGMVFpcE12NmVVT3htR01kMGQxOWpSSERCSjRuTDRoNmdBSk1MNW4tNk0.',
-    //   'title': 'Holt to Chapel',
-    //   'description1': '',
-    //   'description2': '',
-    //   'lat': 34.1257439,
-    //   'lng': -117.7399139,
-    //   'heading': 350,
-    //   'pitch': 0,
-    //   'links': [
-    //     {
-    //       'description': 'holt',
-    //       'heading': 250,
-    //       'link': 'CAoSK0FGMVFpcFBhbzkya0Nqc1BNSXRheVlrVFdsRjdwQXRJY2VZSFp5eFo0Y00.',
-    //     },
-    //   ],
-    // },
-    // {
-    //   'pano': 'CAoSK0FGMVFpcE9URkhZYkthb0RJalA0T2lBX1hXUXVGdVpmUGtCc1gwOEs1WEk.',
-    //   'title': 'Gym Hill 4',
-    //   'description1': '',
-    //   'description2': '',
-    //   'lat': 34.1272392,
-    //   'lng': -117.740036,
-    //   'heading': 10,
-    //   'pitch': 0,
-    //   'links': [
-    //     {
-    //       'description': 'downhill',
-    //       'heading': 200,
-    //       'link': 'CAoSK0FGMVFpcFBhbzkya0Nqc1BNSXRheVlrVFdsRjdwQXRJY2VZSFp5eFo0Y00.',
-    //     },
-    //     {
-    //       'description': 'uphill',
-    //       'heading': 20,
-    //       'link': 'CAoSK0FGMVFpcE1SQmdGZTFOZHRpSkZ2ZVdSNDlwaW03SEt4bUktSF9DbDk3alE.',
-    //     },
-    //   ],
-    // },
+    //   {
+    //     'pano': 'CAoSK0FGMVFpcE9URkhZYkthb0RJalA0T2lBX1hXUXVGdVpmUGtCc1gwOEs1WEk.',
+    //     'title': 'Gym Hill 4',
+    //     'description1': '',
+    //     'description2': '',
+    //     'lat': 34.1272392,
+    //     'lng': -117.740036,
+    //     'heading': 10,
+    //     'pitch': 0,
+    //     'links': [
+    //       {
+    //         'description': 'downhill',
+    //         'heading': 200,
+    //         'link': 'CAoSK0FGMVFpcE1sTl9WTmJoSkhjbkJyNmFaaEh0S0phQjF4RTZodklZQUlNb0E.',
+    //       },
+    //       {
+    //         'description': 'uphill',
+    //         'heading': 20,
+    //         'link': 'CAoSK0FGMVFpcE1SQmdGZTFOZHRpSkZ2ZVdSNDlwaW03SEt4bUktSF9DbDk3alE.',
+    //       },
+    //     ],
+    //   },
     // {
     //   'pano': 'CAoSK0FGMVFpcE1SQmdGZTFOZHRpSkZ2ZVdSNDlwaW03SEt4bUktSF9DbDk3alE.',
     //   'title': 'Outside Gym',
@@ -576,33 +598,34 @@ var places_list =
 
 
 
-    {
-      'pano': 'CAoSK0FGMVFpcE1TeXNCSW5nZk1SVFBEc2NtaVJVVEVFQnlCVmtnZXNKT0FLM3M.',
-      'title': 'Outside Museum',
-      'description1': '',
-      'description2': '',
-      'lat': 34.1237692,
-      'lng': -117.7385205,
-      'heading': 270,
-      'pitch': 0,
-      'links': [
-        {
-          'description': 'Noho Crossroads',
-          'heading': 270,
-          'link': 'CAoSK0FGMVFpcE0tVTNHX3FPSHJtMnA0Sm1ROHNPem1JV1o0Y2x2OF9QNzNsOTA',
-        },
-        {
-          'description': 'Admission Outside',
-          'heading': 90,
-          'link': 'CAoSK0FGMVFpcFBGdl94N1dKTGpnNi11M2E5Y0tWY0FrcVNoX09RdHpTQVZDalk.',
-        },
-        {
-          'description': 'Jackson',
-          'heading': 320,
-          'link': 'CAoSLEFGMVFpcE5BQnowS29aYnJqOTJtTy14NmdTOG52bWR4MFhaVFp1Z192RDla',
-        },
-      ],
-    },
+
+    // {
+    //   'pano': 'CAoSK0FGMVFpcE1TeXNCSW5nZk1SVFBEc2NtaVJVVEVFQnlCVmtnZXNKT0FLM3M.',
+    //   'title': 'Outside Museum',
+    //   'description1': '',
+    //   'description2': '',
+    //   'lat': 34.1237692,
+    //   'lng': -117.7385205,
+    //   'heading': 270,
+    //   'pitch': 0,
+    //   'links': [
+    //     {
+    //       'description': 'Noho Crossroads',
+    //       'heading': 270,
+    //       'link': 'CAoSK0FGMVFpcE0tVTNHX3FPSHJtMnA0Sm1ROHNPem1JV1o0Y2x2OF9QNzNsOTA',
+    //     },
+    //     {
+    //       'description': 'Admission Outside',
+    //       'heading': 90,
+    //       'link': 'CAoSK0FGMVFpcFBGdl94N1dKTGpnNi11M2E5Y0tWY0FrcVNoX09RdHpTQVZDalk.',
+    //     },
+    //     {
+    //       'description': 'Jackson',
+    //       'heading': 320,
+    //       'link': 'CAoSLEFGMVFpcE5BQnowS29aYnJqOTJtTy14NmdTOG52bWR4MFhaVFp1Z192RDla',
+    //     },
+    //   ],
+    // },
 
 
 
@@ -824,7 +847,111 @@ var places_list =
     //   },
 
 
-    // Liu Cheung Theater
+    // {
+    //   'pano': 'CAoSK0FGMVFpcE15SWNmVHRpSnV0cExxaHpfQTRCNEFPVkRkY1RYdTRrOUxOSTg.',
+    //   'title': 'Liu Cheung',
+    //   'description1': '',
+    //   'description2': '',
+    //   'lat': 34.1239544,
+    //   'lng': -117.7395716,
+    //   'heading': 180,
+    //   'pitch': 10,
+    //   'links': [
+    //     {
+    //       'description': 'inside',
+    //       'heading': 180,
+    //       'link': 'CAoSK0FGMVFpcE5Dc3QyRlhuTFRvZXpjbFRQa3hFTkRVbDJyY21feVYtOE4wRWs.',
+    //     },
+    //     {
+    //       'description': 'Hooper',
+    //       'heading': 0,
+    //       'link': 'CAoSLEFGMVFpcE9SRXJ1RDNQVmo3dURGTG8tTWdFcWhSMmJvVkhXMjFIVUdxbUdP',
+    //     },
+    //   ],
+    // },
+    // {
+    //   'pano': 'CAoSK0FGMVFpcE5Dc3QyRlhuTFRvZXpjbFRQa3hFTkRVbDJyY21feVYtOE4wRWs.',
+    //   'title': 'Theater Middle',
+    //   'description1': '',
+    //   'description2': '',
+    //   'lat': 34.124115,
+    //   'lng': -117.7395554,
+    //   'heading': 355,
+    //   'pitch': -10,
+    //   'links': [
+    //     {
+    //       'description': 'outside',
+    //       'heading': 180,
+    //       'link': 'CAoSK0FGMVFpcE15SWNmVHRpSnV0cExxaHpfQTRCNEFPVkRkY1RYdTRrOUxOSTg.',
+    //     },
+    //     {
+    //       'description': 'on stage',
+    //       'heading': 0,
+    //       'link': 'CAoSK0FGMVFpcFAxMExQcy1FTmdSb3FlSXd4Vy1CU3k4TzRxTmNFd256Y3N6QmM.',
+    //     },
+    //     {
+    //       'description': 'right',
+    //       'heading': 90,
+    //       'link': 'CAoSK0FGMVFpcE5SWGxjX3BJckYyNXU4cDRfTHdHMUp4bXl6LW1QVUNNVHVQWjQ.',
+    //     },
+    //     {
+    //       'description': 'left',
+    //       'heading': 270,
+    //       'link': 'CAoSK0FGMVFpcFBYdUtjYUkxbzVHT09GTVNRcWhzcXVnZlNDSWZaV2ZNOWFqQlE.',
+    //     },
+    //   ],
+    // },
+    //   {
+    //     'pano': 'CAoSK0FGMVFpcFAxMExQcy1FTmdSb3FlSXd4Vy1CU3k4TzRxTmNFd256Y3N6QmM.',
+    //     'title': 'Theater on Stage',
+    //     'description1': '',
+    //     'description2': '',
+    //     'lat': 34.1242638,
+    //     'lng': -117.7394562,
+    //     'heading': 0,
+    //     'pitch': -10,
+    //     'links': [
+    //       {
+    //         'description': 'middle',
+    //         'heading': 0,
+    //         'link': 'CAoSK0FGMVFpcE5Dc3QyRlhuTFRvZXpjbFRQa3hFTkRVbDJyY21feVYtOE4wRWs.',
+    //       },
+    //     ],
+    // },
+    // {
+    //   'pano': 'CAoSK0FGMVFpcFBYdUtjYUkxbzVHT09GTVNRcWhzcXVnZlNDSWZaV2ZNOWFqQlE.',
+    //   'title': 'Theater Left',
+    //   'description1': '',
+    //   'description2': '',
+    //   'lat': 34.1241112,
+    //   'lng': -117.7396326,
+    //   'heading': 180,
+    //   'pitch': -10,
+    //   'links': [
+    //     {
+    //       'description': 'middle',
+    //       'heading': 180,
+    //       'link': 'CAoSK0FGMVFpcE5Dc3QyRlhuTFRvZXpjbFRQa3hFTkRVbDJyY21feVYtOE4wRWs.',
+    //     },
+    //   ],
+    // },
+    // {
+    //     'pano': 'CAoSK0FGMVFpcE5SWGxjX3BJckYyNXU4cDRfTHdHMUp4bXl6LW1QVUNNVHVQWjQ.',
+    //     'title': 'Theater Right',
+    //     'description1': '',
+    //     'description2': '',
+    //     'lat': 34.1241341,
+    //     'lng': -117.7394562,
+    //     'heading': 15,
+    //     'pitch': -10,
+    //     'links': [
+    //       {
+    //         'description': 'middle',
+    //         'heading': 270,
+    //         'link': 'CAoSK0FGMVFpcE5Dc3QyRlhuTFRvZXpjbFRQa3hFTkRVbDJyY21feVYtOE4wRWs.',
+    //       },
+    //     ],
+    // },
 
     //TODO: link this with Liu Cheung
     // {
@@ -848,92 +975,97 @@ var places_list =
     //       'heading': 200,
     //       'link': 'CAoSLEFGMVFpcE8zNEwzZXo4UzNlZ2xpRVNITHRTMVFmRndGMTVNb2RTYlRYWTNo.',
     //     },
+    //     {
+    //       'description': 'Liu Cheung',
+    //       'heading':330,
+    //       'link': 'CAoSK0FGMVFpcE15SWNmVHRpSnV0cExxaHpfQTRCNEFPVkRkY1RYdTRrOUxOSTg.',
+    //     }
     //   ]
     // },
-    {
-      'pano': 'CAoSLEFGMVFpcFBKSEYwZTFDOGpfbHBLcUo2dXZpT3I0VzcwRWhVQjhyTlFPbzlq',
-      'title': 'Hooper Student Center Front Door',
-      'description1': 'Right through the front doors of Hooper you can see an overview of its interior. Starting at the very left is the concierge desk. Turning away from the desk you can see the main seating area with all reconfigurable furniture setups. The four TV screens can be used to show one show or used for four smaller activities, including gaming.',
-      'description2': 'Now directly down the center and to the left you will find the bathrooms. Turning right is the cafe, a working area for students and the meeting room for students. To the far right are admin offices for faculty who will be working in Hooper.',
-      'lat': 34.1235417,
-      'lng': -117.7393717,
-      'heading': 30,
-      'pitch': -20,
-      'links': [
-        {
-          'description': 'Fountain',
-          'heading': 180,
-          'link': 'CAoSK0FGMVFpcE04VnloRnRBdnUzLU9SNGUzUmREeWRxeW9ibTNhVmVjREFUNEU.',
-        },
-        {
-          'description': 'Hooper big table',
-          'heading': 25,
-          'link': 'CAoSLEFGMVFpcE5nZExpMFViMVdlOEFTb0lQb2d1cDV2VkZHaEtNamduanEyY2s5',
-        },
-        {
-          'description': 'Hooper sofas',
-          'heading': 300,
-          'link': 'CAoSLEFGMVFpcE5ndERSZXR4NEFmSUtYZ3EySnAyN2Q5NUxUaXZnbkEyOVFZY0RI',
-        },
-      ],
-    },
-    {
-      'pano': 'CAoSLEFGMVFpcE5ndERSZXR4NEFmSUtYZ3EySnAyN2Q5NUxUaXZnbkEyOVFZY0RI',
-      'title': 'Hooper Student Center Sofas',
-      'description1': 'Right through the front doors of Hooper you can see an overview of its interior. Starting at the very left is the concierge desk. Turning away from the desk you can see the main seating area with all reconfigurable furniture setups. The four TV screens can be used to show one show or used for four smaller activities, including gaming.',
-      'description2': 'Now directly down the center and to the left you will find the bathrooms. Turning right is the cafe, a working area for students and the meeting room for students. To the far right are admin offices for faculty who will be working in Hooper.',
-      'lat': 34.1228528,
-      'lng': -117.738205,
-      'heading': 30,
-      'pitch': -20,
-      'links': [
+    // {
+    //   'pano': 'CAoSLEFGMVFpcFBKSEYwZTFDOGpfbHBLcUo2dXZpT3I0VzcwRWhVQjhyTlFPbzlq',
+    //   'title': 'Hooper Student Center Front Door',
+    //   'description1': 'Right through the front doors of Hooper you can see an overview of its interior. Starting at the very left is the concierge desk. Turning away from the desk you can see the main seating area with all reconfigurable furniture setups. The four TV screens can be used to show one show or used for four smaller activities, including gaming.',
+    //   'description2': 'Now directly down the center and to the left you will find the bathrooms. Turning right is the cafe, a working area for students and the meeting room for students. To the far right are admin offices for faculty who will be working in Hooper.',
+    //   'lat': 34.1235417,
+    //   'lng': -117.7393717,
+    //   'heading': 30,
+    //   'pitch': -20,
+    //   'links': [
+    //     {
+    //       'description': 'Fountain',
+    //       'heading': 180,
+    //       'link': 'CAoSK0FGMVFpcE04VnloRnRBdnUzLU9SNGUzUmREeWRxeW9ibTNhVmVjREFUNEU.',
+    //     },
+    //     {
+    //       'description': 'Hooper big table',
+    //       'heading': 25,
+    //       'link': 'CAoSLEFGMVFpcE5nZExpMFViMVdlOEFTb0lQb2d1cDV2VkZHaEtNamduanEyY2s5',
+    //     },
+    //     {
+    //       'description': 'Hooper sofas',
+    //       'heading': 300,
+    //       'link': 'CAoSLEFGMVFpcE5ndERSZXR4NEFmSUtYZ3EySnAyN2Q5NUxUaXZnbkEyOVFZY0RI',
+    //     },
+    //   ],
+    // },
+    // {
+    //   'pano': 'CAoSLEFGMVFpcE5ndERSZXR4NEFmSUtYZ3EySnAyN2Q5NUxUaXZnbkEyOVFZY0RI',
+    //   'title': 'Hooper Student Center Sofas',
+    //   'description1': 'Right through the front doors of Hooper you can see an overview of its interior. Starting at the very left is the concierge desk. Turning away from the desk you can see the main seating area with all reconfigurable furniture setups. The four TV screens can be used to show one show or used for four smaller activities, including gaming.',
+    //   'description2': 'Now directly down the center and to the left you will find the bathrooms. Turning right is the cafe, a working area for students and the meeting room for students. To the far right are admin offices for faculty who will be working in Hooper.',
+    //   'lat': 34.1228528,
+    //   'lng': -117.738205,
+    //   'heading': 30,
+    //   'pitch': -20,
+    //   'links': [
 
-      ],
-    },
-    {
-      'pano': 'CAoSLEFGMVFpcE5nZExpMFViMVdlOEFTb0lQb2d1cDV2VkZHaEtNamduanEyY2s5',
-      'title': 'Hooper Student Center big table',
-      'description1': 'Taking a closer look at the right side of Hooper, you can see Cafe 1175. The name was chosen through a competition and the numbers 1175 represent Webb’s address. The cafe will be run by dining hall staff and students are free to grab a drink or something to eat in their free time.',
-      'description2': 'Next to the cafe is a working area for students. Students can come into Hooper during breaks or after school to work on their homework or on group projects at the desks. It’s a great place to get some work done or just hang out with friends.',
-      'lat': 34.1235778,
-      'lng': -117.7395417,
-      'heading': 20,
-      'pitch': -20,
-      'links': [
-        {
-          'description': 'Hooper front door',
-          'heading': 115,
-          'link': 'CAoSLEFGMVFpcFBKSEYwZTFDOGpfbHBLcUo2dXZpT3I0VzcwRWhVQjhyTlFPbzlq',
-        },
-        {
-          'description': 'Hooper steps',
-          'heading': 20,
-          'link': 'CAoSLEFGMVFpcE8zNEwzZXo4UzNlZ2xpRVNITHRTMVFmRndGMTVNb2RTYlRYWTNo',
-        },
-      ],
-    },
-    {
-      'pano': 'CAoSLEFGMVFpcE8zNEwzZXo4UzNlZ2xpRVNITHRTMVFmRndGMTVNb2RTYlRYWTNo',
-      'title': 'Hooper Student Center steps',
-      'description1': 'The stairs leading up to the student meeting room and the wood floors are the same wood that used to be the dance floor in the main area of Hooper below. Entering the meeting room, you can see a bunch of desks and chairs where students can also sit and work or gather for any group projects or meetings.',
-      'description2': 'There are also more private meeting rooms on either side of this main room. Students can sit there for some quiet work time or also use it as a space to work on group projects or have meetings. Hooper really is the place for students!',
-      'lat': 34.1236583,
-      'lng': -117.7394533,
-      'heading': 0,
-      'pitch': -20,
-      'links': [
-        {
-          'description': 'Hooper big table',
-          'heading': 210,
-          'link': 'CAoSLEFGMVFpcE5nZExpMFViMVdlOEFTb0lQb2d1cDV2VkZHaEtNamduanEyY2s5',
-        },
-        {
-          'description': 'Hooper behind',
-          'heading': 0,
-          'link': 'CAoSLEFGMVFpcE9SRXJ1RDNQVmo3dURGTG8tTWdFcWhSMmJvVkhXMjFIVUdxbUdP',
-        },
-      ]
-    },
+    //   ],
+    // },
+    // {
+    //   'pano': 'CAoSLEFGMVFpcE5nZExpMFViMVdlOEFTb0lQb2d1cDV2VkZHaEtNamduanEyY2s5',
+    //   'title': 'Hooper Student Center big table',
+    //   'description1': 'Taking a closer look at the right side of Hooper, you can see Cafe 1175. The name was chosen through a competition and the numbers 1175 represent Webb’s address. The cafe will be run by dining hall staff and students are free to grab a drink or something to eat in their free time.',
+    //   'description2': 'Next to the cafe is a working area for students. Students can come into Hooper during breaks or after school to work on their homework or on group projects at the desks. It’s a great place to get some work done or just hang out with friends.',
+    //   'lat': 34.1235778,
+    //   'lng': -117.7395417,
+    //   'heading': 20,
+    //   'pitch': -20,
+    //   'links': [
+    //     {
+    //       'description': 'Hooper front door',
+    //       'heading': 115,
+    //       'link': 'CAoSLEFGMVFpcFBKSEYwZTFDOGpfbHBLcUo2dXZpT3I0VzcwRWhVQjhyTlFPbzlq',
+    //     },
+    //     {
+    //       'description': 'Hooper steps',
+    //       'heading': 20,
+    //       'link': 'CAoSLEFGMVFpcE8zNEwzZXo4UzNlZ2xpRVNITHRTMVFmRndGMTVNb2RTYlRYWTNo',
+    //     },
+    //   ],
+    // },
+    // {
+    //   'pano': 'CAoSLEFGMVFpcE8zNEwzZXo4UzNlZ2xpRVNITHRTMVFmRndGMTVNb2RTYlRYWTNo',
+    //   'title': 'Hooper Student Center steps',
+    //   'description1': 'The stairs leading up to the student meeting room and the wood floors are the same wood that used to be the dance floor in the main area of Hooper below. Entering the meeting room, you can see a bunch of desks and chairs where students can also sit and work or gather for any group projects or meetings.',
+    //   'description2': 'There are also more private meeting rooms on either side of this main room. Students can sit there for some quiet work time or also use it as a space to work on group projects or have meetings. Hooper really is the place for students!',
+    //   'lat': 34.1236583,
+    //   'lng': -117.7394533,
+    //   'heading': 0,
+    //   'pitch': -20,
+    //   'links': [
+    //     {
+    //       'description': 'Hooper big table',
+    //       'heading': 210,
+    //       'link': 'CAoSLEFGMVFpcE5nZExpMFViMVdlOEFTb0lQb2d1cDV2VkZHaEtNamduanEyY2s5',
+    //     },
+    //     {
+    //       'description': 'Hooper behind',
+    //       'heading': 0,
+    //       'link': 'CAoSLEFGMVFpcE9SRXJ1RDNQVmo3dURGTG8tTWdFcWhSMmJvVkhXMjFIVUdxbUdP',
+    //     },
+    //   ]
+    // },
 
 
 
