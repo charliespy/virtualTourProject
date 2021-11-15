@@ -232,41 +232,9 @@ data = [
 
 
     
-    {
-        'pano': 'CAoSK0FGMVFpcE9zY3V2WllTal9UUFAwUS1seVc0R2lNaDFqckNpQ0NkSlZjVzA.',
-        'title': 'Crossroads - noho',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1241989,
-        'lng': -117.7388535,
-        'heading': 95,
-        'pitch': -10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
     
-    {
-        'pano': 'CAoSK0FGMVFpcE5SSjVrYVBadXV5cmhJWXhxQzJ0aVRxY3F2SWdZSG9BZjFqMW8.',
-        'title': 'Gym Hill Bottom',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1251284,
-        'lng': -117.7395954,
-        'heading': 350,
-        'pitch': 0,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
+    
+    
     {
         'pano': 'CAoSK0FGMVFpcE1sTl9WTmJoSkhjbkJyNmFaaEh0S0phQjF4RTZodklZQUlNb0E.',
         'title': 'Gym Hill Top',
@@ -391,91 +359,11 @@ data = [
 
 
     
-    {
-        'pano': 'CAoSK0FGMVFpcE5vWWJPa1JQaW9HckJISXFkcW83dWVJdTR5ZkxNSE9CRm55LXM.',
-        'title': 'Chapel Hill',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1248627,
-        'lng': -117.739357,
-        'heading': 45,
-        'pitch': -10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    {
-        'pano': 'CAoSK0FGMVFpcFBhbzkya0Nqc1BNSXRheVlrVFdsRjdwQXRJY2VZSFp5eFo0Y00.',
-        'title': 'Outside Holt',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1256371,
-        'lng': -117.7393494,
-        'heading': 330,
-        'pitch': 10,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    {
-        'pano': 'CAoSK0FGMVFpcE12NmVVT3htR01kMGQxOWpSSERCSjRuTDRoNmdBSk1MNW4tNk0.',
-        'title': 'Holt to Chapel',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1257439,
-        'lng': -117.7399139,
-        'heading': 350,
-        'pitch': 0,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    {
-        'pano': 'CAoSK0FGMVFpcE9URkhZYkthb0RJalA0T2lBX1hXUXVGdVpmUGtCc1gwOEs1WEk.',
-        'title': 'Gym Hill',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1272392,
-        'lng': -117.740036,
-        'heading': 10,
-        'pitch': 0,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
-    {
-        'pano': 'CAoSK0FGMVFpcE1SQmdGZTFOZHRpSkZ2ZVdSNDlwaW03SEt4bUktSF9DbDk3alE.',
-        'title': 'Outside Gym',
-        'description1': '',
-        'description2': '',
-        'lat': 34.1276932,
-        'lng': -117.7401962,
-        'heading': 330,
-        'pitch': -5,
-        // 'links': [
-        //   {
-        //     'description': '',
-        //     'heading': 0,
-        //     'link': '',
-        //   },
-        // ],
-    },
+    
+    
+    
+    
+    
     {
         'pano': 'CAoSK0FGMVFpcE5wcjRmY2pFQk9TZlFWSG40Zjk5TU5BaE1tMFI4STRGUWRmRVU.',
         'title': 'Outside Guayules',
